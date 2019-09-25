@@ -1,5 +1,5 @@
 class Genre 
-  attr_accessor
+  attr_reader :name 
   
   @@all = []
   
