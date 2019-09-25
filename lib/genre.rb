@@ -1,7 +1,7 @@
 class Genre 
   attr_accessor
   
-  @@all 
+  @@all = []
   
   def initialize(name)
     @name = name 
